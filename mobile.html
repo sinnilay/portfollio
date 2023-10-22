@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Carter+One&family=Lobster&family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Carter+One&family=Lobster&family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./download.png" type="image/x-icon">
+    <style>
+     @media (min-width:320px) and (max-width:480px) {
+        
+     
+.container{
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    background: #161616;
+    z-index: 1;
+    transition: 0.5s ease;
+    transform: translateX(-250px);
+   
+
+}
+
+.container .head{
+    color: #fbfdce;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(30deg,#df0155,#ed4901);
+}
+ol{
+    width: 100%;
+    list-style: none;
+}
+ol li{
+    display: block;
+    width: 80%;
+    
+}
+ol li a{
+    color: #fdfdce;
+    padding: 10px 5px;
+    
+    display: block;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    text-transform: capitalize;
+
+}
+
+ol li a i{
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+}
+ol li:hover a{
+    background: #030303;
+    color: #00eaff;
+
+}
+input{
+    appearance: 1;
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+
+}
+
+#times,#bars{
+    position: absolute;
+    right: -40px;
+    top: 18px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: #000;
+
+
+}
+
+#bars{
+    background: red;
+    /* position: sticky; */
+
+}
+
+#check:checked ~ .container{
+    transform: translateX(0);
+
+}
+
+#check:checked ~ .container #bars{
+    display: none;
+}
+
+.main{
+    background-color: palevioletred;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Black Ops One', cursive;
+    color: black;
+    max-width: 100%;
+}   
+.first{
+    display: flex;
+    font-size: small;
+    gap: 100px;
+   
+    /* position: absolute;
+    top: 10px; */
+}
+.sm{
+    display: flex;
+    font-size: x-small;
+}
+.h11{
+    display: inline;
+  
+    background: linear-gradient(90deg,#d56528f0 ,#d56528f0,#d2d23d);
+    font-family: 'Black Ops One', cursive;
+
+   
+
+    
+   
+    
+   
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 10ms linear infinite;
+
+    font-size: xx-small;
+}
+.second{
+    
+    display: flex;
+    font-size: xx-small;
+    align-items: center;
+    justify-content: space-between;
+}
+.h22{
+    color: #fdfdce;
+}
+.s2{
+    width: 100px;
+}
+body{
+    margin: 0%;
+    
+}
+     }
+    </style>
+</head>
+<body>
+    <div style="max-width: 100%;">
+    <div class="main">  
+        <input type="checkbox" name="" id="check">
+          <div class="container">
+            <label for="check">
+              <span class="fas fa-times" id="times"></span>
+              <span class="fas fa-bars" id="bars"></span>
+              
+            </label>
+           <div class="head">
+            menu
+           </div> 
+           <ol>
+            <li><a href=""><i class="fas fa-qrcode"></i>dashbord</a></li>
+            <li><a href=""><i class="fas fa-users"></i>services</a></li>
+            <li><a href=""><i class="fas fa-arrow-up"></i>update</a></li>
+            <li><a href=""><i class="fa-solid fa-file"></i>certificates</a></li>
+            <li><a href=""><i class="fas fa-phone"></i>contacts</a></li>
+            <li><a href=""><i class="fas fa-info"></i>about</a></li>
+           </ol>
+          </div> 
+      
+          <div class="first">
+             
+                <h1 class="h11">NILAY'S PORTFOLLIO</h1>
+             <div class="sm">
+                <div class="second">
+                 
+              <span class="s1">
+                <a href=""><h1 class="h22">Projects</h1></a>
+              </span>
+              <span class="s2">
+                <a href=""><h1 class="h22">Recent work</h1></a>
+              </span>
+              <span class="s3">
+                <a href=""><h1 class="h22">Resume</h1></a>
+              </span>
+                </div>
+             </div>  
+          </div>
+          <div class="text">
+            <h1 id="nkn">HI,THERE.</h1>
+          <h1 id="ima">
+      
+            I'M A FRONT-END DEVELOPER SKILLED IN HTML, CSS, AND JAVASCRIPT. MY PASSION LIES IN CRAFTING USER-FRIENDLY AND VISUALLY APPEALING WEBSITES</h1>
+      
+           <h1 class="red"> LET'S COLLABORATE TO CREATE WEB SOLUTIONS THAT CAPTIVATE AND ENGAGE...</h1>
+          </div>
+      
+          <div class="pic">
+            <!-- <img src="./WhatsApp Image 2023-10-19 at 19.03.18_56d251f2.jpg" alt=""> -->
+        </div>
+      
+          
+           <!-- <video  autoplay loop  height="500" width="500">
+            <source src="./Technology Background Video Loop For Website.mp4">
+           </video> -->
+          
+          <div class="whatsapp" >
+            <a  class="mnk" href="https://wa.me/918318461569?text=HELLO%20THERE%20YOU%20ARE%20CONTACTING%20NILAY%20SINGH">
+            <div  style="height: 75px; width: 500px; border: 2px solidblack; border-radius: 25px; background-color: #29d55d; display: flex; gap: 20px; justify-content: center; align-items: center;">
+                <img src="./ggg.png" alt="" width="60px" height="45px" style=" overflow: hidden; align-items: center;">
+                <h4 style="color: white; font-family: Arial, Helvetica, sans-serif;"><b>LETS CHAT ON WHATSAPP</b></h4>
+            </div> </a>
+        </div>
+      </div> 
+    </div>      
+</body>
+</html>
